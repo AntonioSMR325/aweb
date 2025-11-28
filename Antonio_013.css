@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    padding: 2em;
+    background: linear-gradient(to right, blue 0%,green 50%, yellow 100%);
+    cursor: url(cursorcopy.cur), auto;
+}
+
+section{
+    display: flex;
+    height: 300px;
+    cursor: n-resize;
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 4s ease;
+    border-radius: 20px;
+}
+section img:firts-child{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+section img:last-child{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+section img:hover{
+    width: 300px;
+    opacity: 1;
+    filter:contrast(120%);
+}
+
+p{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin: 1rem auto 1rem auto;
+}

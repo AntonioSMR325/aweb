@@ -1,0 +1,52 @@
+p{
+  border: 0.1rem black solid;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  background-image: linear-gradient(to right, orange,blue,white);
+}
+
+div{
+  border: 0.1rem solid black;
+  background-color:orange;
+  height: 15rem;
+  box-shadow: -2rem -2rem 0.5rem blue;
+  margin: 10rem;
+}
+header,footer{
+    border: solid black 0.1rem;
+    border-radius: 2.5rem;
+    padding: 2rem;
+    text-align: center;
+    background-image:linear-gradient(to right,
+    blue, white,  red);
+    box-shadow: -0.5rem 0.5rem 0.5rem black;
+    text-shadow: 0.2rem 0.2rem 0.4rem orange;
+    color: white;
+}
+body{
+    font-size: 1.6rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, rgba(30, 60, 255, 0.61),white);
+}
+
+.paisaje{
+   background-image: linear-gradient(to right, transparent 50%,rgba(30, 60, 255, 0.61) 50%, white 100%), url(./imagen.paisaje.jpg);
+   background-size: 100%, 100rem; 
+   padding: 8rem 0;
+   background-repeat: no-repeat;
+   background-position: left center;
+   margin-top: 2rem;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.paisaje h2{
+   grid-column: 2/3;
+   text-align: center;
+   color: black;
+}
+

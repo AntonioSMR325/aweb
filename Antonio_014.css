@@ -1,0 +1,60 @@
+/*
+    Creando Tablas
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+h1{
+    text-align: center;
+}
+
+
+table{
+    margin-top: 5rem;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: white;
+    color: black;
+}
+
+caption{
+    padding-top: 2rem;
+    font-style: italic;
+
+}
+
+td,th{
+    border: 0.2rem solid black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+th img{
+    width: 90px;
+}
+
+.hola{
+    background-color: rgb(77, 77, 255);
+}
