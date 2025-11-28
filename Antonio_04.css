@@ -1,0 +1,39 @@
+/*
+Hoja de estilo P0
+ENlances e Hipervinculos
+Octubre de 2025
+Antonio Alarcón Marín
+*/
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+h1{
+    background-color: brown;
+    color:white;
+    padding: 20px;
+}
+
+p{
+    background-color:aquamarine;
+    padding: 20px;
+    border:solid 3px;
+    /* 
+        margin: arriba der abajo izq
+    */
+    margin: 20px 0px 20px 0px;
+
+}
+
+p> b{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color:blueviolet;
+}
+
+img{
+    width: 50%;
+    border-radius: 25 px;
+}

@@ -1,0 +1,65 @@
+/*
+Antonio_05.css
+Aquí podrás visualizar las reglas de CSS de nuestra 
+Antonio_05.html llamada "Cajas flotantes" yeah
+*/
+
+body{
+    color:white
+}
+
+h1{
+    color:black;
+    text-align: center;
+}
+
+div{
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+#cajaNegra{
+    background-color: black;
+    /*float: left;*/
+    clear: both;
+    width: 100%;
+
+
+}
+
+#bolaAzul{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
+#bolaAmarilla{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
+
+#bolaVerde{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+#cajaRoja{
+    background-color: red;
+    /*float: right;*/
+    clear:both;
+    width: 100%
+}

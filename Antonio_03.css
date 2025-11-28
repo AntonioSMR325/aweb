@@ -1,0 +1,32 @@
+Fichero Antonio css
+
+p{
+    color:brown;
+}
+
+pre{
+    color:rgb(9, 130, 236);
+    background-color:crimson;
+}
+
+h1{
+    background-color: peru;
+    color:rgb(248, 248, 248);
+    border: solid;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+h2{
+    color: greenyellow;
+    border: solid rebeccapurple;
+    border-radius: 10px;
+    padding: 5px;
+  
+}
+
+p{
+    background-color: yellow;
+    font-family:Arial, Helvetica, sans-serif
+   
+}
