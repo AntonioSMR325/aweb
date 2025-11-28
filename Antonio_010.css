@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+video,audio,iframe{
+    padding-top: 1rem;
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+audio{
+    padding: 5rem;
+}
+
+
+header{
+    color: black;
+    text-align: center;
+    background-color: white;
+    border-color: black;
+    padding: 0.3rem;
+    font-family:'Courier New', Courier, monospace;
+}
+section{
+    display: flex;
+}
+
