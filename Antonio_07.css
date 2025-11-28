@@ -1,0 +1,86 @@
+/*
+
+Antonio 09:Listas ordenadas, listas desordenadas
+y listas de definicion
+
+*/
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    width: 70%;
+    margin: auto;
+    border: dashed;
+    padding: 15px;
+}
+
+ol ol {
+    list-style-type: lower-roman;
+}
+
+.listaDesordenada {
+    background-color: bisque;
+}
+
+.ListaOrdenada {
+    background-color: cornflowerblue;
+}
+
+.listaDefinicion {
+    background-color: darkgreen;
+}
+
+ul li {
+    list-style-type: none;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: -5px;
+    padding: 0px 0px 0px 25px;
+}
+
+.torre {
+    background-image: url(./torre.jpg);
+}
+
+.fuente {
+    background-image: url(./fuente.jpg);
+}
+
+.cpu {
+    background-image: url(./intel.jpg);
+}
+
+.placa {
+    background-image: url(./placa.jpg);
+}
+
+.disco {
+    background-image: url(./disco.jpg);
+}
+
+.Ram {
+    background-image: url(./ram.jpg);
+}
+
+.gpu {
+    background-image: url(./gpu.jpg);
+}
+
+.refi {
+    background-image: url(./refi.jpg);
+}
+
+
+.Tarjeta {
+    background-image: url(./tarjeta.jpg);
+}
+
+.SO {
+    background-image: url(./s.o.jpg);
+}
