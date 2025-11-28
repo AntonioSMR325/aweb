@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+
+}
+
+fieldset {
+    display: flex;
+    margin: 2rem;
+    padding: 2rem;
+    flex-direction: column;
+    background-color: dodgerblue;
+    border-color: black;
+}
+
+h1,
+legend {
+    text-align: center;
+}
+
+.datos_iniciales {
+    border: solid 0.6rem black;
+    width: 45%;
+}
+
+.inputs {
+    border: solid 0.7rem black;
+    width: 50%;
+    color: white;
+}

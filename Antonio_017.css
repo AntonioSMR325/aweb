@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+*::selection{
+    background: red;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main{
+    padding: 10px;
+    background-image: linear-gradient(to bottom, blue, white);
+}
+
+article{
+    margin-top: 50px;
+    font-size: 1.5rem;
+    text-align: justify;
+    column-count: 3;
+    column-gap: 2rem;
+    column-rule: 3px solid green;
+}
+
+p::first-letter{
+    font-size: 3rem;
+    color: pink;
+}
+
+p::first-line{
+    color:chocolate;
+}

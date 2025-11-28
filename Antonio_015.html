@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Antonio_015.css" rel="stylesheet">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1>Formularios</h1>
+    <form action="enviar.php" method="dialog" target="_blank">
+        <fieldset class="datos_iniciales">
+            <legend>Datos personales:</legend>
+            <label for="">Nombre:</label>
+            <input type="text">
+            <label for="">Apellidos:</label>
+            <input type="text">
+            <label for="">Fecha de Nacimiento</label>
+            <input type="date">
+        </fieldset>
+        <fieldset class="inputs">
+            <legend>Conctato:</legend>
+            <input type="email" placeholder="Correo electrónico" name="correo">
+            <input type="password" placeholder="Contraseña" name="Contraseña">
+            <input type="tel" placeholder="Teléfono" name="telefono">
+            <input type="number" min="0" max="100">
+            <input type="color">
+            <input type="file">
+
+
+        </fieldset>
+        <fieldset class="otros">
+            <textarea placeholder="Dime algo porfa" rows="10" cols="30"></textarea>
+            <select name="pais" id="paises">
+                <option value="spain">España</option>
+                <option value="france">Francia</option>
+                <option value="brasil">Brasil</option>
+            </select>
+        </fieldset>
+        <button>Es un super botón</button>
+        <input type="submit" value="Dame(Enviar)">
+    </form>
+</body>
+
+</html>
